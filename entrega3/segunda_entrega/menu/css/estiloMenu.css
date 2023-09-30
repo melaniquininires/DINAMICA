@@ -1,0 +1,193 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la cabecera */
+header {
+    background-color: #040d41;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+/* Estilos para la imagen */
+.jq {
+    display: block; /* Asegura que la imagen sea un elemento en bloque */
+    margin: 0 auto; /* Centra horizontalmente la imagen dentro del enlace */
+    max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    border: none; /* Elimina cualquier borde */
+    transition: transform 0.2s; /* Agrega un efecto de escala al pasar el ratón */
+}
+
+.jq:hover {
+    transform: scale(1.1); /* Escala la imagen al pasar el ratón */
+}
+/* Estilo logo Unco */
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: 100px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Ajusta la imagen dentro del círculo */
+}
+/* Estilos del menú */
+nav {
+    background-color: #2903ff;
+}
+.boton-con-imagen {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    float: left;
+  }
+  .boton-con-imagen img {
+    width: 2px; /* Establece el ancho deseado para la imagen */
+    height: 6px; /* Establece el alto deseado para la imagen */
+  }
+  
+.mi-boton {
+    background-color: #040d41;
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    display: inline-block; 
+    cursor: pointer; 
+}
+
+.mi-boton a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    position: relative;
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu li:hover > a {
+    color: #ff0000; /* Color al pasar el ratón */
+}
+
+.menu ul {
+    position: absolute;
+    background-color: #0156b8;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    z-index: 1;
+}
+
+.menu li:hover > ul {
+    display: block; /* Mostrar submenú al pasar el ratón */
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #fff1f1; /* Color al pasar el ratón */
+}
+
+/* Estilos del contenido principal */
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+main h2 {
+    font-size: 2rem;
+    color: #000000;
+}
+
+main p {
+    font-size: 1.1rem;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main li {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+/* Estilos de los botones pag secundaria */
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #e68200; /* Color al pasar el ratón */
+    transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+}
+/* Estilos del pie de página */
+footer {
+    background-color:  #040d41;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-github {
+    margin-bottom: 1rem;
+}
+
+.logo-github img {
+    width: 70px; /* Ajusta el tamaño del logo de GitHub según tu preferencia */
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.logo-github img:hover {
+    transform: scale(1.1);
+}

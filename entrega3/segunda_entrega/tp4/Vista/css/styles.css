@@ -1,0 +1,204 @@
+/* Estilos generales */
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para etiquetas y campos de entrada */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.boton-con-imagen {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    float: left;
+  }
+  .boton-con-imagen img {
+    width: 2px; /* Establece el ancho deseado para la imagen */
+    height: 6px; /* Establece el alto deseado para la imagen */
+  }
+
+input[type="text"],
+input[type="date"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para el botón */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el mensaje de validación */
+#mensaje {
+    color: #d9534f; /* Color rojo */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mi-boton {
+    background-color: #040d41;
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    display: inline-block; 
+    cursor: pointer; 
+}
+
+.mi-boton a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.mi-boton:hover {
+    background-color: #0a1e59; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #012f5e;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.container.content {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.table-container {
+    border: 1px solid #aaaaaa;
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #012f5e;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.footer {
+    background-color: #012f5e;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+/* Estilos para la tabla */
+.border {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: calc(100% / 7);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.col.border.fw-bold {
+    /* Agrega tus estilos personalizados aquí */
+    background-color: #040d41; 
+    border: 1px solid #ccc; /* Cambia el borde a un borde gris */
+    font-weight: bold; /* Establece la fuente en negrita */
+}
+
+/* Estilos para el encabezado de la tabla */
+.row:first-child {
+    background-color: #040d41;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos para las filas de datos */
+.row:not(:first-child) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el botón "Ver Autos" */
+.btn-link {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+.custom-button {
+    background-color: #040d41;
+    border-color: #040d41;
+    color: white;
+}
+.custom-button:hover {
+    background-color: #00172e;
+    border-color: #00172e;
+}
+
+.error {
+    border: 2px solid red;
+}
